@@ -1,0 +1,93 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Installation Software</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            background: white;
+            padding: 50px 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            font-size: clamp(28px, 5vw, 42px);
+            color: #1f2937;
+            margin-bottom: 30px;
+        }
+
+        .install-button {
+            display: inline-block;
+            width: 100%;
+            max-width: 300px;
+            padding: 16px 25px;
+            border-radius: 10px;
+            background: #2563eb;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: 0.2s ease;
+        }
+
+        .install-button:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        .install-button:active {
+            transform: translateY(0);
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            .install-button {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Installation Software</h1>
+
+        <!-- CHANGE THIS URL TO YOUR SOFTWARE LINK -->
+        <a href="https://drive.google.com/drive/folders/1Vc3zAL4oLi5G97EV_rsy-KmF0TDZMtyt?usp=sharing"
+           target="_blank"
+           class="install-button">
+             Software
+        </a>
+    </div>
+
+</body>
+</html>
